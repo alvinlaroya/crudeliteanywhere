@@ -1,4 +1,4 @@
-**Instruction**
+**Instructions**
 
 1. Run Composer install
 2. Run php artisan migrate
