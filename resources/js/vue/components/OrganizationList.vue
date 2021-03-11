@@ -207,20 +207,6 @@ export default {
         },
         currentOrganization: {},
         editedIndex: -1,
-        editedItem: {
-            name: "",
-            calories: 0,
-            fat: 0,
-            carbs: 0,
-            protein: 0
-        },
-        defaultItem: {
-            name: "",
-            calories: 0,
-            fat: 0,
-            carbs: 0,
-            protein: 0
-        },
         isViewingPersons: false,
         personsBelong: [],
         orgNameSelected: '',
