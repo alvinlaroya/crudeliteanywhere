@@ -1,0 +1,15 @@
+1. CRUD for Person
+2. CRUD for Organization
+3. Organization belonging ToMany Person
+4. Persons belonging ToMany Organization
+5. Show the list of Persons belonging to Organization
+6. Show the list of Organizations in which the Person belongs to
+
+'column1' => DB::raw('column1 + 2'),
+
+php artisan make:model ModelName -m
+
+php artisan make:controller ControllerName --source
+
+//Many to many (pivot table)
+php artisan make:migration create_organization_person_table --create=organization_person
